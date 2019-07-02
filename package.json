@@ -1,0 +1,49 @@
+{
+  "name": "@react-native-community/button",
+  "version": "0.0.1",
+  "description": "React Native Button module for iOS & Android",
+  "repository": "https://github.com/Naturalclar/react-native-button.git",
+  "license": "MIT",
+  "author": "Jesse Katsumata <jesse.katsumata@gmail.com>",
+  "main": "js/Button.js",
+  "scripts": {
+    "test": "yarn test:eslint && yarn test:flow && yarn test:jest",
+    "test:eslint": "eslint 'js/**/*.js' ",
+    "test:flow": "flow check",
+    "test:js": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "detox": "^13.0.1",
+    "eslint": "^6.0.1",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-flowtype": "^3.11.1",
+    "eslint-plugin-jest": "^22.7.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "eslint-plugin-react-native": "^3.7.0",
+    "flow-bin": "^0.102.0",
+    "invariant": "^2.2.4",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-native": "^0.59.9",
+    "react-test-renderer": "^16.8.6"
+  },
+  "keywords": [
+    "react-native",
+    "react native",
+    "button"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
