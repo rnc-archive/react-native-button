@@ -37,9 +37,46 @@
 
 ## Usage
 ```javascript
-import RNCButton from 'react-native-button';
+import Button from 'react-native-button';
 
-// TODO: What to do with the module?
-RNCButton;
+<Button
+  onPress={() => onButtonPress('Simple')}
+  testID="simple_button"
+  color={theme.LinkColor}
+  title="Press Me"
+  accessibilityLabel="See an informative alert"
+/>
+
+<Button
+  onPress={() => onButtonPress('Purple')}
+  testID="purple_button"
+  color={theme.SystemPurpleColor}
+  title="Press Purple"
+  accessibilityLabel="Learn more about purple"
+/>
+
+<Button
+  onPress={() => onButtonPress('Left')}
+  testID="left_button"
+  color={theme.LinkColor}
+  title="This looks great!"
+  accessibilityLabel="This sounds great!"
+/>
+
+<Button
+  onPress={() => onButtonPress('Right')}
+  testID="right_button"
+  color={theme.SystemPurpleColor}
+  title="Ok!"
+  accessibilityLabel="Ok, Great!"
+/>
+
+<Button
+  disabled
+  onPress={() => onButtonPress('Disabled')}
+  testID="disabled_button"
+  title="I Am Disabled"
+  accessibilityLabel="See an informative alert"
+/>
 ```
   
